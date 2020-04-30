@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="districtName">
+        <item>강남구</item>
+        <item>강동구</item>
+        <item>강북구</item>
+        <item>강서구</item>
+        <item>관악구</item>
+        <item>광진구</item>
+        <item>구로구</item>
+        <item>금천구</item>
+        <item>노원구</item>
+        <item>도봉구</item>
+        <item>동대문구</item>
+        <item>동작구</item>
+        <item>마포구</item>
+        <item>서대문구</item>
+        <item>서초구</item>
+        <item>성동구</item>
+        <item>성북구</item>
+        <item>송파구</item>
+        <item>양천구</item>
+        <item>영등포구</item>
+        <item>용산구</item>
+        <item>은평구</item>
+        <item>종로구</item>
+        <item>중구</item>
+        <item>중랑구</item>
+    </string-array><!-- 25개 -->
+
+    <string-array name="districtEngName">
+        <item>Gangnam-gu</item>
+        <item>Gangdong-gu</item>
+        <item>Gangbuk-gu</item>
+        <item>Gangseou-gu</item>
+        <item>Gwanak-gu</item>
+        <item>Gwangjin-gu</item>
+        <item>Guro-gu</item>
+        <item>Geumcheon-gu</item>
+        <item>Nowon-gu</item>
+        <item>Dobong-gu</item>
+        <item>Dongdaemun-gu</item>
+        <item>Dongjak-gu</item>
+        <item>Mapo-gu</item>
+        <item>Seodaemun-gu</item>
+        <item>Seocho-gu</item>
+        <item>Seongdong-gu</item>
+        <item>Seongbuk-gu</item>
+        <item>Songpa-gu</item>
+        <item>Yangcheon-gu</item>
+        <item>Yeongdaengpo-gu</item>
+        <item>Yongsan-gu</item>
+        <item>Eunpyeong-gu</item>
+        <item>Jongno-gu</item>
+        <item>Jung-gu</item>
+        <item>Jungnang-gu</item>
+    </string-array>
+
+    <string-array name="SearchDistrictName">
+        <item>지역 선택</item>
+        <item>강남구</item>
+        <item>강동구</item>
+        <item>강북구</item>
+        <item>강서구</item>
+        <item>관악구</item>
+        <item>광진구</item>
+        <item>구로구</item>
+        <item>금천구</item>
+        <item>노원구</item>
+        <item>도봉구</item>
+        <item>동대문구</item>
+        <item>동작구</item>
+        <item>마포구</item>
+        <item>서대문구</item>
+        <item>서초구</item>
+        <item>성동구</item>
+        <item>성북구</item>
+        <item>송파구</item>
+        <item>양천구</item>
+        <item>영등포구</item>
+        <item>용산구</item>
+        <item>은평구</item>
+        <item>종로구</item>
+        <item>중구</item>
+        <item>중랑구</item>
+    </string-array>
+
+    <string-array name="districtXCoordinate">
+        <item>0</item>
+        <item>37.548186</item>
+        <item>37.633484</item>
+        <item>37.563707</item>
+        <item>37.477844</item>
+        <item>37.540818</item>
+        <item>37.497636</item>
+        <item>37.460115</item>
+        <item>37.648179</item>
+        <item>37.660105</item>
+        <item>37.585061</item>
+        <item>37.504046</item>
+        <item>37.559680</item>
+        <item>37.578267</item>
+        <item>37.477903</item>
+        <item>37.551275</item>
+        <item>37.603409</item>
+        <item>37.507590</item>
+        <item>37.525516</item>
+        <item>37.523684</item>
+        <item>37.532008</item>
+        <item>37.616265</item>
+        <item>37.589885</item>
+        <item>37.562012</item>
+        <item>37.598713</item>
+    </string-array>
+
+    <string-array name="districtYcoordinate">
+        <item>0</item>
+        <item>127.063131</item>
+        <item>127.144663</item>
+        <item>127.018841</item>
+        <item>126.828557</item>
+        <item>126.936356</item>
+        <item>127.081405</item>
+        <item>126.853396</item>
+        <item>126.904528</item>
+        <item>127.067350</item>
+        <item>127.037766</item>
+        <item>127.053644</item>
+        <item>126.950047</item>
+        <item>126.909331</item>
+        <item>126.939091</item>
+        <item>127.024503</item>
+        <item>127.040895</item>
+        <item>127.017511</item>
+        <item>127.116183</item>
+        <item>126.855534</item>
+        <item>126.909894</item>
+        <item>126.980968</item>
+        <item>126.924351</item>
+        <item>126.979286</item>
+        <item>126.992749</item>
+        <item>127.090729</item>
+    </string-array>
+
+    <string-array name="districtToAreaCode">//26개
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+    </string-array>//26개
+</resources>

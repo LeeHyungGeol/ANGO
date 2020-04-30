@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AnGo</string>
+    <string name="userId">User ID</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="not_registered">Not Registered?</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm Password</string>
+</resources>

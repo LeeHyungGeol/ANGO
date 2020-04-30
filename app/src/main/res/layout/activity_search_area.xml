@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SearchAreaActivity">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="100dp"
+          android:orientation="vertical">
+
+         <LinearLayout
+             android:id="@+id/LinearLayout"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spinner_districtName"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:entries="@array/SearchDistrictName"></Spinner>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:orientation="horizontal">
+
+                  <TextView
+                      android:id="@+id/textView_selectDate"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:layout_toRightOf="@+id/spinner_districtName"
+                      android:layout_weight="1"
+                      android:text="날짜 선택"
+                      android:textSize="25dp" />
+
+                  <TextView
+                      android:id="@+id/textView_selectTime"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:layout_toRightOf="@+id/textView_selectDate"
+                      android:layout_weight="1"
+                      android:text="시간 선택"
+                      android:textSize="25dp" />
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="34dp"
+                   android:layout_weight="5"
+                   android:orientation="horizontal">
+
+                  <Button
+                      android:id="@+id/button_search"
+                      android:layout_width="142dp"
+                      android:layout_height="wrap_content"
+                      android:text="Search" />
+               </LinearLayout>
+
+            </LinearLayout>
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:id="@+id/LinearLayout2"
+             android:layout_width="match_parent"
+             android:layout_height="147dp"
+             android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_WeatherIcon"
+                android:layout_width="211dp"
+                android:layout_height="126dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/logo" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="64dp"
+                   android:layout_weight="1"
+                   android:orientation="horizontal">
+
+                  <TextView
+                      android:id="@+id/tv_weather"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:layout_weight="1"
+                      android:textSize="22sp" />
+
+                  <TextView
+                      android:id="@+id/tv_temperature"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:layout_weight="1"
+                      android:textSize="22sp" />
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_weight="5"
+                   android:orientation="horizontal">
+
+                  <TextView
+                      android:id="@+id/tv_humidity"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:layout_weight="1"
+                      android:textSize="22sp" />
+
+                  <TextView
+                      android:id="@+id/tv_air"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:layout_weight="1"
+                      android:textSize="22sp" />
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_weight="5"
+                   android:orientation="horizontal">
+
+                  <TextView
+                      android:id="@+id/tv_temperatureMax"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:layout_weight="1"
+                      android:textSize="22sp" />
+
+                  <TextView
+                      android:id="@+id/tv_temperatureMin"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:layout_weight="1"
+                      android:textSize="22sp" />
+               </LinearLayout>
+
+            </LinearLayout>
+
+         </LinearLayout>
+
+<!--         <ScrollView-->
+<!--             android:layout_width="match_parent"-->
+<!--             android:layout_height="wrap_content">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical" />-->
+<!--         </ScrollView>-->
+
+         <ListView
+             android:id="@+id/listView"
+             android:layout_width="match_parent"
+             android:layout_height="504dp" />
+
+      </LinearLayout>
+   </ScrollView>
+
+</LinearLayout>
